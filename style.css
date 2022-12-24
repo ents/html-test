@@ -159,6 +159,9 @@ a.logo .logo-part {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    color: white;
 }
 
 .team {
@@ -197,4 +200,66 @@ footer .gray {
 
 footer address {
     margin-top: 20px;
+}
+
+
+ul.tabs a.btn {
+    background: #F5F4FA;
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+ul.tabs a.btn:hover {
+    background: #2196F3;
+    color: white;
+}
+
+ul.tabs li {
+    margin: 8px;
+}
+ul.tabs {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects {
+    margin: 30px 0 93px;
+}
+
+.projects li.projekts-list {
+    float: left;
+    width: 360px;
+    margin-right: 30px;
+    margin-top: 30px;
+    height: 404px;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.projects li.projekts-list p {
+    color: #757575;
+    padding: 0;
+    margin: 6px 24px 0;
+}
+.projects li.projekts-list h2 {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    padding: 0;
+    margin: 20px 24px 0;
+}
+.projects li.projekts-list img {
+    width: 360px;
+}
+
+.cl {
+    clear: both;
 }
