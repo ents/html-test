@@ -1,0 +1,200 @@
+body {
+    font-family: 'Roboto', serif;
+}
+
+header {
+    height: 80px;
+    padding: 24px 0;
+    box-sizing: border-box;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav {
+    width: 100%;
+}
+
+ul.right {
+    width: 600px;
+}
+
+ul.right li {
+    margin: 0 20px;
+}
+
+header ul {
+    margin: 8px;
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+a {
+    color: #212121;
+    text-decoration: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #2196F3;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+
+ul.business {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.business li {
+    display: inline-block;
+}
+
+.business img {
+    width: 370px;
+    height: 294px;
+    margin: 15px;
+
+}
+
+.advantages li {
+    width: 270px;
+    margin: 15px;
+}
+
+section {
+    padding-top: 60px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+ul li p {
+    color: #757575;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.site-width {
+    width: 1170px;
+    margin: auto;
+}
+
+ul.navigation-list {
+    margin-left: 93px;
+}
+
+.dark {
+    background: #2F303A;
+    color: white;
+}
+
+.dark a.logo span.logo-part {
+    color: white;
+}
+
+a.logo {
+    color: #2196F3;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    font-family: 'Raleway', Serif;
+    letter-spacing: 0.03em;
+}
+
+a.logo .logo-part {
+    color: black;
+}
+
+.head-content {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.head-content h1 {
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+}
+
+.head-content button {
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.team {
+    background: #F5F4FA;
+}
+
+.team img {
+    width: 260px;
+    height: 270px;
+}
+
+ul.team-list {
+    justify-content: center;
+    align-items: center;
+}
+
+.team-list li {
+    width: 270px;
+    margin: 15px;
+    background: white;
+    text-align: center;
+}
+
+footer {
+    padding: 60px 0;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+footer .gray {
+    opacity: 0.6;
+}
+
+footer address {
+    margin-top: 20px;
+}
